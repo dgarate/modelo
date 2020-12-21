@@ -1,0 +1,5 @@
+alert("Succesfully created")
+window.location.href = "/"
+
+$("#my_posts").append("<%= escape_javascript render('posts/postrow', post: @post) %>");
+
